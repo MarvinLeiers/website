@@ -12,8 +12,8 @@
 <div class="wrapper">
     <nav>
         <ul>
-            <li class="link" data-link="home">Home</li>
-            <li class="link" data-link="spigot">Spigot</li>
+            <li class="link active" data-link="home">Home</li>
+            <li class="link" data-link="github">GitHub</li>
             <li class="link" data-link="paper">Paper</li>
             <li class="link" data-link="discord">Discord</li>
             <li class="link" data-link="about">About</li>

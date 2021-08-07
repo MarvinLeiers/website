@@ -16,6 +16,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
             xhr.open('GET', './backend/navigator.php?p=' + data, true);
             xhr.send();
+
+            links.forEach(li => {
+                li.classList.remove('active');
+            });
+
+            link.classList.add('active');
         });
     });
 });
