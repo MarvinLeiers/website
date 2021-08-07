@@ -1,0 +1,21 @@
+html, body {
+  background: #1e272e;
+  font-size: 62.5%;
+  font-size: 1.2rem;
+  font-family: Poppins, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  color: #f5f6fa;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  color: #f5f6fa;
+  font-size: 3rem;
+  text-align: center;
+}
+
+/*# sourceMappingURL=main.css.map */
