@@ -18,4 +18,20 @@ h1 {
   text-align: center;
 }
 
+nav {
+  background: #485460;
+  height: 2rem;
+}
+nav ul {
+  display: flex;
+  height: 2rem;
+  align-items: center;
+  justify-content: space-around;
+  list-style-type: none;
+}
+nav .link {
+  cursor: pointer;
+  font-size: 1rem;
+}
+
 /*# sourceMappingURL=main.css.map */
