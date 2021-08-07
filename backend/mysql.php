@@ -4,7 +4,6 @@ $host = 'localhost';
 $user = 'root';
 $password = '';
 $db_name = 'web';
-
 $dsn = "mysql:host=$host;dbname=$db_name";
 
 try

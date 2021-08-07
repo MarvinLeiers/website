@@ -1,9 +1,10 @@
-$main: #1e272e
-$alternative: #485460
-$dark_contrast: #141a1f
-$light_contrast: #f5f6fa
+$white: #f5f6fa
 $green: #28b161
 $link: #3366BB
+$alternative: #485460
+$light_contrast: #2d3a45
+$main: #1e272e
+$dark_contrast: #141a1f
 
 html, body
   background: $main
@@ -13,7 +14,7 @@ html, body
 
 *
   box-sizing: border-box
-  color: $light_contrast
+  color: $white
   padding: 0
   margin: 0
 
@@ -27,11 +28,14 @@ nav
   background: $dark_contrast
   height: 2rem
 
+  a
+    text-decoration: none
+
   ul
     display: flex
     height: 2rem
     align-items: center
-    justify-content: space-around
+    justify-content: space-evenly
     list-style-type: none
 
   .link
@@ -40,11 +44,14 @@ nav
     text-transform: uppercase
     font-weight: 450
 
+    &:hover
+      border-bottom: 3px solid $white
+
   .active
-    border-bottom: 3px solid $light_contrast
+    border-bottom: 3px solid $white
 
 h1
-  color: $light_contrast
+  color: $white
   font-size: 5rem
   font-weight: 400
   text-align: center
@@ -56,6 +63,7 @@ h1
   left: 50%
   transform: translate(-50%, -50%)
   width: fit-content
+  font-size: 1rem
 
 input[type=text], input[type=password]
   display: block
@@ -64,7 +72,8 @@ input[type=text], input[type=password]
   font-size: 1rem
   margin-bottom: 1rem
   outline: none
-  background: #e0e2e2
+  background: $light_contrast
+  color: $white
   border: 4px solid transparent
 
   &:focus
@@ -75,7 +84,7 @@ input[type=text], input[type=password]
   padding: 7px 10px
   border: none
   border-radius: 7px
-  color: $light_contrast
+  color: $white
   font-size: 1rem
   cursor: pointer
 

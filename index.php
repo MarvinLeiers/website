@@ -13,7 +13,7 @@
     <nav>
         <ul>
             <li class="link active" data-link="home">Home</li>
-            <li class="link" data-link="github">GitHub</li>
+            <li class="link"><a href="https://github.com/MarvinLeiers" target="_blank">GitHub</a></li>
             <li class="link" data-link="paper">Paper</li>
             <li class="link" data-link="discord">Discord</li>
             <li class="link" data-link="about">About</li>
@@ -23,7 +23,6 @@
     <div id="content">
         <?php include 'pages/home.html'; ?>
     </div>
-    <script src="scripts/main.js"></script>
 </div>
 <noscript>
     Please enable JavaScript!
@@ -31,5 +30,6 @@
         .wrapper { display: none; }
     </style>
 </noscript>
+<script src="scripts/main.js"></script>
 </body>
 </html>
